@@ -1,0 +1,532 @@
+
+html, body {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0%;
+    padding: 0%;
+    height: 100%;
+    width: 100%;
+}
+
+p,h1{
+    color: #ffffff;
+}
+
+.twoScrin {
+    position: relative; 
+    width: 1360px;
+    height: 1015px;
+    background-image: url(images/bg.png);
+    background-size: cover;
+    background-position: center;
+}
+header{
+    display: flex;
+}
+
+.logo{
+    margin: 0%;
+    padding: 38px;
+    padding-left: 280px;
+    font-style: medium;
+    font-size: 19px;
+    color: #ffffff;
+        
+}
+
+.tIcon {
+    margin-left: 15px;
+    color: #ffffff;
+    font-size: 10px;
+    width: 115px;
+    height: 34px;
+    margin-top: 37px;
+    font-style: regular;
+}
+
+.icon {
+    margin-left: 250px;
+    margin-top: 39px;
+    background-image: url(images/icon.png);
+    background-repeat: no-repeat;
+    width: 15px;
+    height: 20px; 
+}
+
+.vector{
+    margin-left: 70px;
+    margin-top: 39px;
+    background-image: url(images/Vector.png);
+    background-repeat: no-repeat;
+    width: 34px;
+    height: 34px;
+}
+
+.tVectorOut{
+    width: 176px;
+    height: 48px;
+}
+
+.tVector{
+    color: #ffffff;
+    font-style: bold;
+    font-size: 18px;
+    width: 175px;
+    height: 25px;
+    margin-top: 30px;
+    margin-bottom: 0px;
+}
+
+.tVector1{
+    margin-top: 0px;
+    color: #ffffff;
+    font-style: regular;
+    font-size: 11px;
+    width: 173px;
+    height: 13px;
+}
+
+.line{
+    width: 1360px;
+    height: 0.6px;
+    opacity: 10%;
+    background-color: #7E868E;
+    margin-top: 0px;
+}
+
+.image1{
+    position: absolute;
+    right: 0%;
+    top: 65px;
+    width: 140px;
+}
+
+.image2{
+    position: absolute;
+    left: 0%;
+    top: 95px;
+    width: 140px;
+}
+
+.image3{
+    position: absolute;
+    right: 10%;
+    top: 70%;
+    width: 160px;
+}
+
+.image4{
+    position: absolute;
+    left: 0%;
+    top: 55%;
+    width: 160px;
+}
+
+
+main{
+    margin-left: 265px;
+    margin-top: 155px;
+    width: 644px;
+    height: 459px;
+}
+
+.supertitle{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 140px;
+    height: 33px;
+    font-size: 11px;;
+    color: #2E363E;
+    font-style: regular;
+    background-color: #F2F6FA;
+    border-radius: 5px;
+}
+
+.title{
+    margin-bottom: 0px;
+    width: 530px;
+    height: 150px;
+    font-style: bold;
+    font-size: 35.8px;
+}
+
+.subtitle{
+    margin-top: 0px;
+    margin-bottom: 0px;
+    width: 425px;
+    height: 60px;
+    font-style: regular;
+    font-size: 16px;    
+}
+
+.lastEl{
+    margin-top: 0px;
+    display: flex;  
+    width: 470px;
+    height: 88px;
+   
+}
+
+.button{
+    border: none;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 260px;
+    height: 70px;
+    background-color: #FED84C;
+    border-radius: 25px;
+    margin-top: 30px;
+    border-radius: 8px;
+    color:#2E363E;
+    font-style: medium;
+    font-size: 15px;
+}
+.button:hover{
+    background-color: #e0bd3b;
+}
+
+.mText{
+    padding-top: 30px;
+    margin-left: 20px   ;
+    width: 150px;
+    height: 45px;
+    font-size: 13px;
+}
+
+
+
+
+
+
+
+
+
+
+.thirdScreen{
+    background: #ffffff;}
+
+
+.header{
+    margin-top: 23%;
+    margin-left: 6%;
+    display: flex;
+    width: 1170px;
+    height: 578px;
+}
+
+.main{
+    margin-top: 8%;
+    margin-left: 6%;
+    display: flex;
+    width: 1170px;
+    height: 578px;
+}
+
+.footer{
+    margin-top: 8%;
+    margin-left: 6%;
+    display: flex;
+    width: 1170px;
+    height: 578px;
+}
+
+.card{
+    padding-left: 20px;
+    width: 375px;
+    height: 580px;
+}
+
+.imcard{
+
+    width: 375px;
+    height: 238px;
+}
+
+.button{
+    margin-left: 11%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 159px;
+    height: 63px;
+    background: #FED84C;
+    border-radius: 8px;
+}
+
+.button:hover{
+    background-color: #e0bd3b;
+}
+
+a{
+    text-decoration: none;
+    color: #2E363E;
+}
+
+h3{
+    font-size: 22px;
+    font-style: bold;
+    margin-left: 10%;
+    margin-bottom: 0%;
+    color: #434B53;
+}
+
+.p{
+    font-style: regular;
+    font-size: 15px;
+    margin-left: 10%;
+    color: #434B53;
+}
+
+.price{
+    margin-top: 5%;
+    margin-left: 10%;
+    font-size: 22px;
+    font-style: medium;
+    color: #434B53;
+}
+
+.background2 {
+    z-index: 2;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+}
+
+.bg-image {
+    position: absolute;
+}
+
+.bg1 { 
+    width: 158px; 
+    height: auto;
+    top: 169%; 
+    right: 0.1%;
+}
+.bg2 { 
+    top: 242%; 
+    left: 1%; 
+    width: 100px; 
+    height: auto;
+}
+.bg3 { 
+    top: 109%; 
+    left: 0.1%; 
+    width: 174px; 
+    height: auto;
+}
+
+
+
+.fourthScreen {
+    background: url(images/bg4sk.png) no-repeat;
+    background-attachment:local;
+    background-size:cover;
+    height: 100%;
+    width: 100%;
+    
+}
+
+.supertitle4{
+display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 220px;
+    height: 33px;
+    font-size: 11px;;
+    color: #2E363E;
+    font-family: 'Montserrat', sans-serif;
+    font-style: regular;
+    background-color: #F2F6FA;
+    border-radius: 5px;
+}
+
+.button4{
+    border: none;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 260px;
+    height: 70px;
+    background-color: #FED84C;
+    border-radius: 25px;
+    margin-top: 30px;
+    border-radius: 8px;
+    color:#2E363E;
+    font-style: medium;
+    font-size: 15px;
+}
+.button4:hover{
+    background-color: #e0bd3b;
+}
+
+.title4{
+font-style: medium;
+font-size: 46px;
+color: #ffffff;
+width: 478px;
+height: 176px;
+}
+
+.subtitle4{
+font-style: regular;
+font-size: 19px;
+color: #ffffff;
+width: 478px;
+height: 58px;
+}
+
+.lastEl4{
+    margin-top: 0px;
+    display: flex;  
+    width: 316 px;
+    height: 86px;
+   
+}
+
+.main4{
+    width: 479px;
+    height: 451px;
+    padding-left: 62%;
+    padding-top: 26%;
+}
+
+
+
+.fiveScreen{ 
+    background: #ffffff;
+    margin-top: 10%;
+    display: flex;
+}
+
+.subtitle5{
+    font-style: regular;
+    font-size: 10px;
+    color: #2E363E;
+    width: 189px;
+    height: 35px;
+}
+
+.title5{
+    margin-top: 15px;
+    margin-bottom: 0px;
+    color: #2E363E;
+    font-family: Montserat medium;
+    font-size: 46px;
+    width: 573px;
+    height: 176px;
+    letter-spacing: -1px;
+}
+
+li{
+    color: #2E363E;
+    font-size: 16;
+    font-style: regular;
+}
+
+.button5{
+    border: none;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 260px;
+    height: 85px;
+    border-radius: 8px;
+    background-color: #FED84C;
+    margin-top: -9px;
+    color:#2E363E;
+    font-style: medium;
+    font-size: 15px;
+}
+.button5:hover{
+    background-color: #e0bd3b;
+}
+
+.round{
+    margin-right: 10px;
+    width: 15px;
+    height: 10px;
+    border-radius: 100%;
+    background-color: #5D6AFB;
+}
+
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    width: 432px;
+    height: 220px;
+}
+
+li{
+    display: flex;
+    margin-bottom: 15px;
+    
+}
+
+.leftMain{
+    width:  576px;
+    height:  634px;
+    margin-left: 13%;
+    margin-top: 8%;
+}
+
+.supertitle5{
+    display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 220px;
+        height: 33px;
+        font-size: 11px;;
+        color: #2E363E;
+        font-family: 'Montserrat', sans-serif;
+        font-style: regular;
+        background-color: #F2F6FA;
+        border-radius: 5px;
+}
+
+.rightMain{
+width:576px;
+height: 798px;
+background: url(images/wooman.png) no-repeat;
+background-size: cover;
+}
+
+.bradge{
+width: 284px;
+height: 109px;
+}
+
+.name{
+margin-top: 99%;
+background: #2E363E;
+color: #ffffff;
+font-size: 22px;
+width: 284px;
+height: 57px;
+display: flex;
+align-items: center;
+justify-content: center;
+z-index: 2;
+}
+
+.underName{
+margin-left: 5%;
+background: #F2F6FA;
+color: #2E363E;
+font-size: 17px;
+width: 216px;
+height: 49px;
+display: flex;
+align-items: center;
+justify-content: center;
+z-index: 2;
+}
+
